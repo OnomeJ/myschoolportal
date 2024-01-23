@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container-fluid mx-auto col-lg-7 col-10 shadow-sm mt-lg-5 mt-2 p-3 ">
+        <h1 class="text-center text-decoration-underline my-3">Mini Mart</h1>
+        <input type="text" class="form-control shadow-none  form-control-sm my-2" placeholder="Name of item" id="inp">
+        <input type="number" class="form-control shadow-none  form-control-sm my-2" placeholder="Quantity" id="Quantity">
+        <button class="w-100 btn btn-outline-danger my-2 btn-sm" onclick="addItems()">Add order</button>
+    </div>
+    <div class="container-fluid mx-auto col-lg-7 col-10 my-4 shadow-sm p-3">
+        <div id="show"></div>
+    </div>
+    <div class="container-fluid mx-auto col-lg-7 col-10 shadow-sm mt-lg-5 mt-2 p-3 d-flex">
+        <button class=" btn btn-dark mx-2 my-2 " onclick="addbegin()">Add to the beginning</button>
+        <button class=" btn btn-danger mx-2 my-2 " onclick="delfirst()">Delete first</button>
+        <button class=" btn btn-danger mx-2 my-2 " onclick="dellast()">Delete last</button>
+        <button class=" btn btn-primary mx-2 my-2 " onclick="delall()">Delete all</button>
+    </div>
+   
+</body>
+<script src="script.js"></script>
+</html>
